@@ -1,4 +1,5 @@
 export { default as ContextMenu } from './ContextMenu';
+export { default as ContextMenuButton } from './ContextMenuButton';
 export { default as ContextMenuTrigger } from './ContextMenuTrigger';
 export { default as MenuItem } from './MenuItem';
 export { default as SubMenu } from './SubMenu';
