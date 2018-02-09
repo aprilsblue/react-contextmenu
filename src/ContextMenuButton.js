@@ -6,7 +6,7 @@ import assign from 'object-assign';
 import { showMenu, hideMenu } from './actions';
 import { callIfExists, cssClasses } from './helpers';
 
-export default class ContextMenuTrigger extends Component {
+export default class ContextMenuButton extends Component {
     static propTypes = {
         id: PropTypes.string.isRequired,
         children: PropTypes.node.isRequired,
