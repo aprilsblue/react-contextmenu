@@ -11,6 +11,15 @@ declare module "react-contextmenu" {
         onShow?: {(event: any): void},
     }
 
+    interface ContextMenuButtonProps {
+        id: string,
+        attributes?: React.HTMLAttributes<any>,
+        collect?: {(data: any): any},
+        disable?: boolean,
+        holdToDisplay?: number,
+        renderTag?: React.ReactType,
+    }
+        
     interface ContextMenuTriggerProps {
         id: string,
         attributes?: React.HTMLAttributes<any>,
@@ -39,6 +48,7 @@ declare module "react-contextmenu" {
 
     module ReactContextmenu {
         export const ContextMenu: React.ComponentClass<ContextMenuProps>;
+        export const ContextMenuButton: React.ComponentClass<ContextMenuTriggerProps>;
         export const ContextMenuTrigger: React.ComponentClass<ContextMenuTriggerProps>;
         export const MenuItem: React.ComponentClass<MenuItemProps>;
         export const SubMenu: React.ComponentClass<SubMenuProps>;
