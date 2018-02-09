@@ -13,6 +13,15 @@ Object.defineProperty(exports, 'ContextMenu', {
   }
 });
 
+var _ContextMenuButton = require('./ContextMenuButton');
+
+Object.defineProperty(exports, 'ContextMenuButton', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_ContextMenuButton).default;
+  }
+});
+
 var _ContextMenuTrigger = require('./ContextMenuTrigger');
 
 Object.defineProperty(exports, 'ContextMenuTrigger', {

@@ -19,7 +19,7 @@ declare module "react-contextmenu" {
         holdToDisplay?: number,
         renderTag?: React.ReactType,
     }
-        
+
     interface ContextMenuTriggerProps {
         id: string,
         attributes?: React.HTMLAttributes<any>,
