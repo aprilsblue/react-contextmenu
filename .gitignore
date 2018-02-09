@@ -1,5 +1,8 @@
 node_modules/
 public/
+dist/
+modules/
+es6/
 coverage/
 .vscode
 *.log
